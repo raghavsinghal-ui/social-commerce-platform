@@ -1,5 +1,5 @@
 const URL =
-  "http://localhost:3000/api/products/variantSelection/68b1a7f2c9e4a12345678901/black";
+  " http://localhost:3000/api/products/continueConversation/68b1a7f2c9e4a12345678901/black/68b1a7d5c9e4a12345678902";
 
 async function sendRequest(i) {
     try {
@@ -27,7 +27,7 @@ async function sendRequest(i) {
 }
 
 async function main() {
-    const TOTAL_REQUESTS = 1;
+    const TOTAL_REQUESTS = 100;
 
     const start = Date.now();
 
